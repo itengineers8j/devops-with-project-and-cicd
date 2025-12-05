@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>How to Export a 3D Vista Project and Import it to AWS S3 for Making it Accessible as a Website.</h1>
+<h2>Step 1: Exporting the 3D Vista Project</h2>
+Open the 3D Vista software on your computer. Once the software is open, you will see a window displaying your recent projects. Select the project that you want to export to AWS S3.
+
+<img src="./images/1.png" alt="Recent">
+
+After opening your project, you will see a window similar to the one below:
+
+<img src="./images/2.png" alt="Recent">
+
+Click on the <strong>Publish</strong> button located at the bottom right of your screen. After clicking on this button, a new window will appear. Select the "<strong>Web / Mobile</strong>" option.
+
+<img src="./images/3.png" alt="Recent">
+
+Change the destination of the project to be exported by clicking on the button below.
+
+<img src="./images/4.png" alt="Recent">
+
+Then, choose the location where you want to save your exported project. In my case, I will save it on my desktop in the folder "<strong>AWS-S3-Virtual-tours</strong>". You can create your own folder
+
+<strong>Note: The folder name should not contain spaces.</strong>
+
+<img src="./images/5.png" alt="Recent">
+
+Once the destination is selected, click on the <strong>Select a folder</strong> button to confirm your choice.
+
+<img src="./images/6.png" alt="Recent">
+
+Then, click on the <strong>Publish</strong> button to start the process of exporting your project.
+
+<img src="./images/8.png" alt="Recent">
+
+Your project has been successfully published to the destination you selected.
+
+<img src="./images/9.png" alt="Recent">
+
+I chose the desktop as the destination to save my project in the folder "<strong>AWS-S3-Virtual-tours</strong>". Here's what the exported project looks like:
+
+<img src="./images/10.png" alt="Recent">
+
+Congratulations! You have successfully exported your 3D Vista project to your backup folder.
+<h2>Step 2: Creating an S3 Bucket</h2>
+Start by logging in to your AWS account by going to the following address: <a href="https://console.aws.amazon.com/"></a><a href="https://console.aws.amazon.com/">https://console.aws.amazon.com/</a>
+
+Once on the AWS login interface, enter your AWS account login information.
+
+<img src="./images/11.png" alt="Recent">
+
+After logging in, you will see an interface similar to the one below:
+
+<img src="./images/12.png" alt="Recent">
+
+In the search bar at the top left, type <code>s3</code>. Among the results that appear, click on the first option with <code>s3</code>.
+
+<img src="./images/13.png" alt="Recent">
+
+You will be redirected to the following page:
+
+<img src="./images/14.png" alt="Recent">
+
+Click on the "<strong>Create bucket</strong>" button. On the new page, enter the name of your bucket and choose the region where your bucket will be created. Select a region close to your users.
+
+<strong>Note: The name of your bucket must be unique.</strong>
+
+<img src="./images/15.png" alt="Recent">
+
+Next, scroll down to the section "<strong>Block Public Access settings for this bucket</strong>".
+
+<img src="./images/16.png" alt="Recent">
+
+Uncheck the "<strong>Block all public access</strong>" box, then check the box that says "I acknowledge..." Leave all other parameters with their default values. Scroll down to the bottom and click on the "<strong>Create bucket</strong>" button.
+
+<img src="./images/17.png" alt="Recent">
+
+Your S3 Bucket has been created successfully.
+
+<img src="./images/18.png" alt="Recent">
+</body>
+</html>

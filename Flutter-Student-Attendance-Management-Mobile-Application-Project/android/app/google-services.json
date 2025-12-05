@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812865989450",
+    "project_id": "attendance-management-sy-25109",
+    "storage_bucket": "attendance-management-sy-25109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812865989450:android:b57a389a56e5dc9b5cafb3",
+        "android_client_info": {
+          "package_name": "com.aman.attendance_student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGXgcnWgqHJwM1kH6TpACfvsGdNYx9cSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+---
+repositories:
+  - name: helm-python
+    url: git+https://github.com/AmanPathak-DevOps/Kubernetes-files@Helm?ref=master&sparse=0 
+
+releases: 
+
+  - name: pythonpr
+    chart: ./helm-deploy-rest-api
+    installed: false
+

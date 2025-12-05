@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice.iml" filepath="$PROJECT_DIR$/.idea/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-client-service/techefx-client-service.iml" filepath="$PROJECT_DIR$/techefx-client-service/techefx-client-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-eureka-naming-server/techefx-eureka-naming-server.iml" filepath="$PROJECT_DIR$/techefx-eureka-naming-server/techefx-eureka-naming-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-product-enquiry-service/techefx-product-enquiry-service.iml" filepath="$PROJECT_DIR$/techefx-product-enquiry-service/techefx-product-enquiry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-product-stock-service/techefx-product-stock-service.iml" filepath="$PROJECT_DIR$/techefx-product-stock-service/techefx-product-stock-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-produit-service/techefx-produit-service.iml" filepath="$PROJECT_DIR$/techefx-produit-service/techefx-produit-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-property-access-service/techefx-property-access-service.iml" filepath="$PROJECT_DIR$/techefx-property-access-service/techefx-property-access-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-spring-cloud-config-server/techefx-spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/techefx-spring-cloud-config-server/techefx-spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-spring-cloud-config-server-repo/techefx-spring-cloud-config-server-repo.iml" filepath="$PROJECT_DIR$/techefx-spring-cloud-config-server-repo/techefx-spring-cloud-config-server-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-vente-service/techefx-vente-service.iml" filepath="$PROJECT_DIR$/techefx-vente-service/techefx-vente-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/techefx-zuul-api-gateway-server/techefx-zuul-api-gateway-server.iml" filepath="$PROJECT_DIR$/techefx-zuul-api-gateway-server/techefx-zuul-api-gateway-server.iml" />
+    </modules>
+  </component>
+</project>

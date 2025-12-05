@@ -1,0 +1,45 @@
+version: '3'
+services:
+
+  mysqldb:
+    image: mysql:5.7
+    ports:
+     - 3306:3306
+    environment:
+      MYSQL_PASSWORD: kemane
+      MYSQL_ROOT_PASSWORD: kemane
+      MYSQL_DATABASE: db_zencaisse
+    restart: always
+    volumes:
+      - mysql-data:/var/lib/mysql
+  
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - mysqldb
+    environment:
+      PMA_HOST: mysqldb
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8081:80
+
+  zencaisse:
+    image: zencaisse:docker_tag
+    restart: always
+    ports:
+     - 8090:8090
+    depends_on:
+     - mysqldb
+    links:
+     - mysqldb
+    environment:
+      DB_HOST: mysqldb:3306
+      DB_NAME: db_zencaisse
+      DB_USERNAME: root
+      DB_PASSWORD: kemane
+      APP_PORT: 8090
+
+volumes:
+  mysql-data:
